@@ -1,0 +1,110 @@
+*{
+    margin:1px auto;
+    padding: 10px 10px;
+    font-family: sans-serif;
+   
+}
+
+   body{
+    background-image:
+    linear-gradient( rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+   }
+    
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+
+    
+   
+}
+
+.navbar{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between ;
+    background-image:
+    linear-gradient( rgba(43, 255, 0, 0.774), rgba(21, 255, 0, 0.205));
+}
+    .navbar a:hover {
+        background-color: rgba(92, 113, 138, 0.123);
+        color: rgb(1, 2, 0);
+}
+    
+  
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar ul li a{
+    color: #f85252;
+    font-size: 17px;
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+.navbar ul li{
+    list-style:none ;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+
+.content{
+    
+    position: absolute;
+    top: 30%;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+img{
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+    
+}
+
+.A{
+    background:
+    linear-gradient());
+    background-image:100%;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    cursor: pointer;
+
+}
+
+.A:hover {
+    background-color:rgb(185, 185, 240);
+    color: black;
+}
+.F{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+#p1:hover {
+    background: #145c97;
+   
+}
+.end li:hover {
+    background-color:rgb(9, 9, 66);
+    color:red;
+}

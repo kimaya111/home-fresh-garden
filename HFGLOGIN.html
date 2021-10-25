@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+   
+<script>
+    
+function validate() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    if (username == null || username == "") {
+        alert("Please enter the username.");
+        return false;
+    }
+    if (password == null || password == "") {
+        alert("Please enter the password.");
+        return false;
+    }
+    
+    alert('Login successful'+ "we are redirecting you to Home page");
+   window.open('Home Fresh Garden.html');
+   
+   
+    
+} 
+</script>
+</head>
+
+<body>
+    <h1><b>LOGIN FORM</b></h1>
+
+<form  onsubmit="validate();" method="post">
+<label>username</label>
+<input type="text" name="username" id="username" ><br>
+<label>password</label>
+<input type="password" name="password" id="password" ><br>
+<input type="submit" value="Login" id="submit"  ><br>
+
+</form>
+
+<style>
+    body {
+    font-size: 16px;
+    background-image: url("img\walpaper.jpg");
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+form {
+    width: 300px;
+    background: rgba(240, 236, 236, 0.699);
+    padding: 15px;
+    border: 1px solid rgb(20, 16, 16);
+    margin: 70px auto ;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px
+}
+input {
+    border: 1px solid rgb(51, 74, 177);
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #006dcc;
+    border-color: #016BC1;
+    box-shadow: 0 3px 0 #0165b6;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #25282b;
+}
+</style>
+
+</body>
+</html>
